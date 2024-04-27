@@ -1,0 +1,19 @@
+<!-- templates/about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>About Us</h1>
+        <p>We are a team of passionate developers creating amazing web applications using the Flask framework. Our mission is to empower people with the tools they need to bring their ideas to life.</p>
+        <p>Feel free to contact us if you have any questions or would like to collaborate on a project!</p>
+        <a href="{{ url_for('index') }}">Back to Home</a>
+        <a href="{{ url_for('contact') }}">Contact Us</a>
+    </div>
+</body>
+</html>
