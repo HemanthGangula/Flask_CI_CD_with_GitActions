@@ -12,8 +12,8 @@ class TestApp(unittest.TestCase):
     def test_home_page(self):
         response = self.app.get('/')
         self.assertEqual(response.status_code, 200)
-        # Adjust the assertion to check for the expected HTML content related to your chocolate shop
-        self.assertIn('<title>Chocolate Shop</title>', response.data.decode('utf-8'))
+        # Adjust the assertion to check for the correct title
+        self.assertIn('<title>Artisanal Chocolate Shop</title>', response.data.decode('utf-8'))
 
     def test_about_page(self):
         response = self.app.get('/#about')
