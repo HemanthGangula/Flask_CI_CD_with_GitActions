@@ -13,6 +13,8 @@ Once these two steps are completed, the CI pipeline is ready to be tested.
 
 **Continuous Deployment:** 
 
+In the cd.yml file, you have to replace your Docker repository with an existing one.
+
 **Step 3:** Set Up Self-Hosted Runner on AWS EC2
 - Launch an EC2 instance.
 - Ensure that port 5000 is added to the inbound rule for accessing the application.
