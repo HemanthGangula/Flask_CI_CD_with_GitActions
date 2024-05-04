@@ -4,6 +4,7 @@
 ## Running the Pipeline
 **Step 1:** Fork the Repository
 - Fork the repository to your own GitHub account.
+
 **Step 2:** Configure Docker Hub Credentials
 - After forking the repository, configure Docker Hub credentials in the secrets of your forked repository.
 - `Note: Instead of a password, use the Access Token in DcokerHub.`
