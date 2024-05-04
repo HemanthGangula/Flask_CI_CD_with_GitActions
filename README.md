@@ -1,6 +1,8 @@
 # Flask_CI_CD_with_GitActions
 🚀 Automate Flask web app CI/CD with GitHub Actions! Streamline testing &amp; deployment. Dive into seamless development workflows. Let's code &amp; deploy faster! 🌐💻 #Flask #GitHubActions #CI #CD
 
+[Architecture](https://cdn.hashnode.com/res/hashnode/image/upload/v1714827850049/7f505bc1-ba7f-48a9-b31c-719fa9e061a5.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp)
+
 ## Running the Pipeline
 **Step 1:** Fork the Repository
 - Fork the repository to your own GitHub account.
